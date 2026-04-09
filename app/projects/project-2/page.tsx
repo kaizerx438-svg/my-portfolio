@@ -31,8 +31,8 @@ export default function CabinetKineProjectPage() {
         <Image
           src={projImg2}
           alt="Cabinet de Kinésithérapie"
-          width={800}
-          height={500}
+          width={640}
+          height={360}
           priority
         />
       </div>
