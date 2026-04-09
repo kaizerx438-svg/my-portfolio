@@ -9,9 +9,15 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.8",
     "next": "16.2.2",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "19.2.4",
+    "react-multi-carousel": "^2.8.6",
+    "react-on-screen": "^2.1.1",
+    "react-router-hash-link": "^2.4.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
