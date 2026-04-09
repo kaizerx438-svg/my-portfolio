@@ -35,8 +35,8 @@ export default function AlisonStageProjectPage() {
         <Image
           src={projImg1}
           alt="Logo Alison - Canoë"
-          width={640}
-          height={360}
+          width={350}
+          height={250}
           priority
         />
       </div>

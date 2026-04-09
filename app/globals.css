@@ -1017,7 +1017,8 @@ header .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Image principale du projet */
 .project-page .project-image {
-  margin: 2rem 0;
+  margin: 2rem auto;
+  max-width: 640px;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);

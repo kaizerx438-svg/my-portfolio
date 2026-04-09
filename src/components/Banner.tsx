@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
-import bannerImg from "./assets/img/banner-bg.png";
+import moiImg from "./assets/img/moi.jpeg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -70,7 +70,14 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <Image src={bannerImg} alt="Banner" width={400} height={300} priority/>
+                  <Image
+                    src={moiImg}
+                    alt="Moi"
+                    width={340}
+                    height={340}
+                    priority
+                    style={{ borderRadius: '10%' }}
+                  />
                 </div>}
             </TrackVisibility>
           </Col>
